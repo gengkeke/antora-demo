@@ -1,11 +1,11 @@
 site:
   title: 数据中台
   url: https://dmp.xinyan-ai.com
-  start_page: component-b::index.adoc
+  start_page: api::index.adoc
 content:
   sources:
   - url: https://github.com/gengkeke/antora-demo-component-a.git
-    branches: master
+    branches: v1.0
   - url: https://github.com/gengkeke/antora-demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
