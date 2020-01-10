@@ -1,0 +1,16 @@
+
+**/node_modules
+
+.DS_Store
+
+.idea
+yarn.lock
+package-lock.json
+*bak
+.vscode
+
+.history
+*.log
+functions/*
+lambda/mock/index.js
+.temp/**
