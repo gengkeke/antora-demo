@@ -1,6 +1,6 @@
 site:
-  title: Antora Demo Site
-  url: http://my-antora-demo-site.org
+  title: 数据中台
+  url: https://dmp.xinyan-ai.com
   start_page: component-b::index.adoc
 content:
   sources:
@@ -11,7 +11,12 @@ content:
     start_path: docs
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    #url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    #url: https://github.com/anoff/antora-arc42-ui/releases/download/0.2/ui-bundle.zip
+    #url: https://github.com/aerogear/antora-ui/raw/master/build/ui-bundle.zip
+    #url: https://github.com/lightbend/antora-ui-lightbend-theme/raw/master/build/ui-bundle.zip
+    #url: https://github.com/gengkeke/antora-ui-default/raw/v1.0/build/ui-bundle.zip
+    url: D:\WebstormProjects\antora-ui-default\build\ui-bundle.zip
     snapshot: true
 runtime:
   cache_dir: ./.cache/antora #指定缓存目录
